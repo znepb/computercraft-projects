@@ -1,3 +1,8 @@
+--[[
+  Elevator runner for Create, Advanced Peripherals and, of course, CC.
+  Demo PC: https://youtu.be/Wwx5LPin9-g
+--]]
+
 local shiftSide = "left"
 local clutchSide = "back"
 
