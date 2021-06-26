@@ -3,11 +3,12 @@
   Demo PC: https://youtu.be/Wwx5LPin9-g
 --]]
 
-local shiftSide = "left"
-local clutchSide = "back"
+-- Config
 
-local moving = false
-local level = 1
+local down = 24 -- Integrator ID for the down button
+local up = 23 -- Integrator ID for the up button
+local shiftSide = "left" -- Side of computer with gearshift redstone
+local clutchSide = "back" -- Side of computer with clutch redstone
 
 local floors = {
   {
@@ -17,6 +18,8 @@ local floors = {
     call = 5 -- The integrator that detects when a floor button is pressed
   }
 }
+
+-- Program
 
 local function get(id, side)
   if not side then side = "top" end
@@ -36,8 +39,8 @@ local function setDoors(floor, redstone)
   set(floor.innerDoors[2], redstone)
 end
 
-local down = 24
-local up = 23
+local moving = false
+local level = 1
 
 local calling
 
