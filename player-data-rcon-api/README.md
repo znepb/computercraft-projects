@@ -8,8 +8,9 @@ Create three scoreboards:
 
 ```
 /scoreboard objectives add leaveGame minecraft.custom:minecraft.leave_game
-/scoreboard objectives add leaveGame minecraft.custom:minecraft.play_one_minute
-/scoreboard objectives add leaveGame deathCount
+/scoreboard objectives add timePlayed minecraft.custom:minecraft.play_one_minute
+/scoreboard objectives add deaths deathCount
+/scoreboard objectives add lastSeen dummy
 ```
 
 If people have already joined your server, you'll need to sync your scoreboards with your stat files.  
