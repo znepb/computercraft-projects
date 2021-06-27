@@ -1,6 +1,7 @@
 --[[
+  ~~~ The elevator program has been updated, check out elevator-v2.lua! ~~~
   Elevator runner for Create, Advanced Peripherals and, of course, CC.
-  Demo PC: https://youtu.be/Wwx5LPin9-g
+  Demo video: https://youtu.be/Wwx5LPin9-g
 --]]
 
 -- Config
